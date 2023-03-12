@@ -1,0 +1,22 @@
+.welcomeCard {
+    width:90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcomeBody {
+    margin-left: 5rem;
+    font-size: 20px;
+    
+
+}
+h3 {
+
+     color: #9a7b39;  
+}
+
+h1 {
+    color: #9a7b39;
+    font-size: 40px;
+}

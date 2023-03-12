@@ -1,0 +1,77 @@
+.guidedHuntsCard {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-radius: 25px;
+    height: 410px;
+    background-color:#9a7b39 ;
+    padding-top: 20px;
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+.guidedWhiteTail {
+    margin-left: 10rem;
+    float: left;
+    width: 300px;
+    height: 380px;
+    background-color: whitesmoke;
+    border: solid black;
+    border-radius: 25px;
+}
+.deer {
+    width: 200px;
+    height: 150px;
+    padding-top: 15px;
+}
+.deerButton {
+    margin-top: 5px;
+    align-items: center;
+    height: 3rem;
+    font-size: 15px;
+    background-color: #9a7b39;
+    color: white;
+}
+.guidedTurkey {
+    float: left;
+    width: 300px;
+    height: 380px;
+    background-color: whitesmoke;
+    border: solid black;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+.turkey {
+    width: 200px;
+    height: 150px;
+    padding-top: 15px;
+}
+.turkeyButton {
+    margin-top: 5px;
+    height: 3rem;
+    font-size: 15px;
+    background-color: #9a7b39;
+    color: white;
+}
+.guidedWaterfowl {
+    float: left;
+    width: 300px;
+    height: 380px;
+    background-color: whitesmoke;
+    border: solid black;
+    border-radius: 25px;
+    margin-left: 20px;
+
+}
+
+.waterFowlButton {
+    margin-top: 25px;
+    height: 3rem;
+    font-size: 15px;
+    background-color: #9a7b39;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}

@@ -1,0 +1,23 @@
+.headerCard {
+    background-color: #9a7b39;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    border-radius: 25px;
+    width: 90%; 
+    margin-left: 3rem;
+}
+
+
+.guidedHunts {
+       width: 400px;
+       margin: 10px;
+       padding-left: 3rem;
+       
+}
+
+.mainLogo{
+padding-top: 2rem;
+width: 200px;
+height: 200px;
+}
