@@ -1,11 +1,17 @@
+:root{
+    --navy: #253439;
+}
+
 .headerCard {
     background-color: #9a7b39;
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     grid-gap: 20px; 
     border-radius: 25px;
-    width: 90%; 
+    width: 90%;
+    height: 350px; 
     margin-left: 3rem;
+
 }
 
 
@@ -20,8 +26,9 @@
     align-items: center;
     height: 3rem;
     font-size: 15px;
-    background-color: #9a7b39;
-    color: white;
+    background-color: #253439;
+   
+    color: whitesmoke;
     border-radius: 15px;
     
 }

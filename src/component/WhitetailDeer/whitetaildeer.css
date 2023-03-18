@@ -1,0 +1,157 @@
+.whitetailheaderCard {
+    background-color: #253439;
+   
+    display: grid; 
+    border-radius: 25px;
+    width: 90%;
+    height: 350px; 
+    margin-left: 3rem;
+    text-align: center;
+}
+.whitetailtitle {
+    padding-top: 6rem;
+    font-size: 40px;
+    color:whitesmoke;
+}
+
+/* white tail textbox  */
+
+.whitetailtextbox {
+    text-align: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+.whitetailtextbox1{
+    font-size: 30px;
+}
+.whitetailtextbox2 {
+    font-size: 20px;
+}
+
+/* Whats Included */
+.whatsincluded{
+    padding-top: 20px;
+    background-color:  #253439;
+    color:whitesmoke;
+    border-radius: 25px;
+    width:50%;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.whatsincludedtitle{
+    text-decoration: underline;
+    text-align: center; 
+    font-size: 25px;
+    color:whitesmoke;  
+}
+.whatsincludedlist {
+    font-size: 15px;
+}
+
+/* How We Hunt  */
+.wherewehunt {
+    padding-top: 20px;
+    background-color:  #253439;
+    color:whitesmoke;
+    border-radius: 25px;
+    width:50%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 50px;
+  
+}
+.wherewehunttitle {
+    text-decoration: underline;
+    text-align: center; 
+    font-size: 25px;
+    color:whitesmoke;
+}
+.wherewehuntlist {
+    font-size: 15px;
+}
+
+/* Availability */
+.availability {
+    padding-top: 20px;
+    background-color:  #253439;
+    color:whitesmoke;
+    border-radius: 25px;
+    width:50%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+  
+}
+.availabilitytitle {
+    text-decoration: underline;
+    text-align: center; 
+    font-size: 25px;
+    color:whitesmoke;
+}
+.availabilitylist {
+    font-size: 15px;
+}
+footer {
+    margin-left: 50px;
+}
+/* =======================Media Queries (Medium Devices)=================== */
+@media screen and  (max-width: 1024px) {
+    body {
+         width: 86%;
+     }
+     .whitetailtextbox {
+        text-align: center;
+        width: 100%;
+        margin-left: 10%;
+        
+        padding-top: 20px;
+    }
+    .whatsincluded{
+        padding-top: 20px;
+        background-color:  #253439;
+        color:whitesmoke;
+        border-radius: 25px;
+        width:86%;
+        height: 800px;
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+    .wherewehunt {
+        padding-top: 20px;
+        background-color:  #253439;
+        color:whitesmoke;
+        border-radius: 25px;
+        width:86%;
+        height: 375px;
+        margin-top: 20px;
+        margin-left: 15%;
+      
+      
+    }
+    .availability {
+        padding-top: 20px;
+        background-color:  #253439;
+        color:whitesmoke;
+        border-radius: 25px;
+        width:86%;
+        height: 350px;
+        margin-top: 20px;
+        margin-left: 50px;
+      
+    }
+    footer {
+        margin-left: 15%;
+        width:86%
+    }
+   }
+   
+   /* =======================Media Queries (Small Devices)=================== */
+   @media screen and  (max-width: 600px) {
+     body {
+         width: 90%;
+     }
+    }

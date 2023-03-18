@@ -1,52 +1,78 @@
 .footerCard {
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     border-radius: 25px;
-    height: 200px;
+    height: 150px;
     background-color:#9a7b39 ;
     padding-top: 20px;
     padding-left:15px;
     padding-right: 15px;
+    margin-top: 20px;
+
 }
 
-h3 {
+.footerheaders {
     text-decoration: underline;
-    color: #9a7b39;
+    color: #253439;
+    text-align: center;
 }
 .ourAddress {
-    margin-left: 10rem;
+    float:left;
     margin-top: 1rem;
-    float: left;
-    width: 300px;
+    width: 25%;
     height: 150px;
-    background-color: whitesmoke;
-    border: solid black;
-    border-radius: 25px;
+   
 }
 
 
 .reservations {
-    float: left;
-    margin-top: 1rem;
-    width: 300px;
+  float:left;
+  margin-top: 1rem;
+    width: 45%;
     height: 150px;
-    background-color: whitesmoke;
-    border: solid black;
-    border-radius: 25px;
     margin-left: 20px;
 }
 
-
+.footertext {
+    text-align: center;
+}
 .openAllYear {
-    float: left;
+    float: right;
     margin-top: 1rem;
-    width: 300px;
+    width: 25%;
     height: 150px;
-    background-color: whitesmoke;
-    border: solid black;
-    border-radius: 25px;
     margin-left: 20px;
 
 }
 
+/* =======================Media Queries (Medium Devices)=================== */
+@media screen and  (max-width: 1024px) {
+    body {
+         width: 86%;
+     }
+     .footerCard {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        border-radius: 25px;
+        height: 600px;
+        background-color:#9a7b39 ;
+        padding-top: 20px;
+        padding-left:15px;
+        padding-right: 15px;
+        margin-top: 20px;
+        
+    }
+    
+    
+   }
+   
+   /* =======================Media Queries (Small Devices)=================== */
+   @media screen and  (max-width: 600px) {
+     body {
+         width: 90%;
+     }
+    }

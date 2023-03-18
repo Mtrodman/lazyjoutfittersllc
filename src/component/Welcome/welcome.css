@@ -11,12 +11,40 @@
     
 
 }
-h3 {
+.welcometitle{
 
      color: #9a7b39;  
 }
 
-h1 {
+.welcomeheader {
     color: #9a7b39;
     font-size: 40px;
 }
+
+/* =======================Media Queries (Medium Devices)=================== */
+@media screen and  (max-width: 1024px) {
+    body {
+         width: 86%;
+     }
+ 
+    footer {
+        margin-left: 15%;
+        width:86%
+    }
+    .welcometitle{
+        margin-left: 30%; 
+   }
+   .welcomeheader {
+    margin-left: 25%;
+   } 
+   .welcomebody {
+    width:86%
+   }
+   }
+   
+   /* =======================Media Queries (Small Devices)=================== */
+   @media screen and  (max-width: 600px) {
+     body {
+         width: 90%;
+     }
+    }

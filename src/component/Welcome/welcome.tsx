@@ -3,8 +3,8 @@ import './welcome.css'
 function Welcome() {
     return (
         <div className="welcomeCard">
-            <h3>Welcome To</h3>
-                <h1>Lazy J Outfitters</h1>
+            <h3 className="welcometitle">Welcome To</h3>
+                <h1 className="welcomeheader">Lazy J Outfitters</h1>
                     <p className="welcomeBody">
                     Lazy J’s land has been in Emilee Burkett’s family since 1972. Lazy J manages and runs hunts on 
                     15,000 acres. 90% of that land is all family owned and has never been pressured by many hunters. 

@@ -1,0 +1,186 @@
+.turkeyheaderCard {
+    background-color: #253439;
+   
+    display: grid; 
+    border-radius: 25px;
+    width: 90%;
+    height: 350px; 
+    margin-left: 3rem;
+    text-align: center;
+}
+.turkeytitle {
+    padding-top: 6rem;
+    font-size: 40px;
+    color:whitesmoke;
+}
+
+/* white tail textbox  */
+
+.turkeytextbox {
+    text-align: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+.turkeytextbox1{
+    font-size: 30px;
+}
+.turkeytextbox2 {
+    font-size: 20px;
+}
+.turkeyhowwehunt{
+    padding-top: 20px;
+    background-color:  #253439;
+    color:whitesmoke;
+    border-radius: 25px;
+    width:50%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.turkeyhowwehunttitle{
+    text-decoration: underline;
+    text-align: center; 
+    font-size: 25px;
+    color:whitesmoke;  
+}
+.turkeyhowwehuntlist {
+    font-size: 15px;
+}
+
+/* Whats Included */
+.turkeywhatsincluded{
+    padding-top: 20px;
+    background-color:  #253439;
+    color:whitesmoke;
+    border-radius: 25px;
+    width:50%;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.turkeywhatsincludedtitle{
+    text-decoration: underline;
+    text-align: center; 
+    font-size: 25px;
+    color:whitesmoke;  
+}
+.turkeywhatsincludedlist {
+    font-size: 15px;
+}
+
+/* How We Hunt  */
+.turkeywherewehunt {
+    padding-top: 20px;
+    background-color:  #253439;
+    color:whitesmoke;
+    border-radius: 25px;
+    width:50%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+   
+  
+}
+.turkeywherewehunttitle {
+    text-decoration: underline;
+    text-align: center; 
+    font-size: 25px;
+    color:whitesmoke;
+}
+.turkeywherewehuntlist {
+    font-size: 15px;
+}
+
+/* Availability */
+.turkeyavailability {
+    padding-top: 20px;
+    background-color:  #253439;
+    color:whitesmoke;
+    border-radius: 25px;
+    width:50%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 50px;
+  
+}
+.turkeyavailabilitytitle {
+    text-decoration: underline;
+    text-align: center; 
+    font-size: 25px;
+    color:whitesmoke;
+}
+.turkeyavailabilitylist {
+    font-size: 15px;
+}
+
+/* =======================Media Queries (Medium Devices)=================== */
+@media screen and  (max-width: 1024px) {
+    body {
+         width: 86%;
+     }
+     .turkeytextbox {
+        text-align: center;
+        width: 100%;
+        margin-left: 10%;
+     
+        padding-top: 20px;
+    }
+    .turkeywhatsincluded{
+        padding-top: 20px;
+        background-color:  #253439;
+        color:whitesmoke;
+        border-radius: 25px;
+        width:86%;
+        height: 550px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .turkeywherewehunt {
+        padding-top: 20px;
+        background-color:  #253439;
+        color:whitesmoke;
+        border-radius: 25px;
+        width:86%;
+        height: 375px;
+        margin-top: 20px;
+        margin-left: 15%;
+       
+      
+    }
+    .turkeyhowwehunt{
+        padding-top: 20px;
+        background-color:  #253439;
+        color:whitesmoke;
+        border-radius: 25px;
+        width:86%;
+        height: 475px;
+       margin-left: 15%;
+       
+        margin-top: 20px;
+    }
+    .turkeyavailability {
+        padding-top: 20px;
+        background-color:  #253439;
+        color:whitesmoke;
+        border-radius: 25px;
+        width:86%;
+        height: 350px;
+        margin-top: 20px;
+        margin-left: 50px;
+      
+    }
+    footer {
+        margin-left: auto;
+    }
+   }
+   
+   /* =======================Media Queries (Small Devices)=================== */
+   @media screen and  (max-width: 600px) {
+     body {
+         width: 90%;
+     }
+    }

@@ -1,0 +1,57 @@
+.lodgingheaderCard {
+    background-color: #253439;
+   
+    display: grid; 
+    border-radius: 25px;
+    width: 90%;
+    height: 350px; 
+    margin-left: 3rem;
+    text-align: center;
+        
+}
+.lodgingtitle {
+    padding-top: 6rem;
+    font-size: 40px;
+    color:whitesmoke;
+}
+/* Lodging Text Box */
+.Lodgingtextbox {
+    text-align: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.lodgingtextbox1{
+    font-size: 30px;
+    
+}
+.lodgingtextbox2{
+    font-size: 20px;
+}
+
+/* Features Box */
+.Features {
+    padding-top: 20px;
+    background-color:  #253439;
+    color:whitesmoke;
+    border-radius: 25px;
+    width:420px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+.featuresheader {
+    text-decoration: underline;
+    text-align: center; 
+    font-size: 25px;
+    color:whitesmoke;  
+}
+.featureinfo {
+    /* list-style-type: none; */
+    font-size: 15px;
+    
+    
+}
