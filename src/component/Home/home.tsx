@@ -13,6 +13,7 @@ function Home() {
           <Header/>
       </header>
       <body className="App-body">
+        
           <Welcome/>
           <Guides/>
           <Gallery/>

@@ -13,6 +13,7 @@ function Header() {
                      Spring Turkey. Lazy J Outfitters is owned and operated by Gene Roberts and Emilee Burkett; 
                      husband and wife.
                     </p>
+                    <button className='button'>Book A Hunt</button>
             </div>
             <div className="lazyJlogo">
                 <img className="mainLogo"src={lazyjlogo} alt="Lazy J Outfitters Logo"></img>

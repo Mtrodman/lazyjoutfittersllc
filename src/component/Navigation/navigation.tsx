@@ -12,37 +12,37 @@ function Navigation() {
   return (
     <header className='header'>
       <div>
-      <Link className='logo' to='/'><img src={lazyjlogo} alt="" /></Link>
+      <Link className='mainlogo' to='/'><img src={lazyjlogo} alt="" /></Link>
       </div>
       <ul className='list'>
-            <li>
+            <li className='buttonlink'>
               <Link className='nav n1' to='/About'>
                 About
               </Link>
             </li>
             
-            <li>
+            <li className='buttonlink'>
               <Link className='nav n1' to='/Lodging'>
                 Lodging
               </Link>
             </li>
-            <li>
-              <Link className='nav n1' to='/Contact'>
+            <li className='buttonlink'>
+              <Link className=' nav n1' to='/Contact'>
                Contact
               </Link>
             </li>
-            <li>
-              <Link className='nav n1' to='/WhitetailDeer'>
+            <li className='buttonlink'>
+              <Link className=' nav n1' to='/WhitetailDeer'>
                Whitetail Deer 
               </Link>
             </li>
-            <li>
+            <li className='buttonlink'>
               <Link className='nav n1' to='/Turkey'>
                Turkey
               </Link>
             </li>
-            <li>
-              <Link className='nav n1' to='/Waterfowl'>
+            <li className='buttonlink'>
+              <Link className=' nav n1' to='/Waterfowl'>
                Waterfowl
               </Link>
             </li>
