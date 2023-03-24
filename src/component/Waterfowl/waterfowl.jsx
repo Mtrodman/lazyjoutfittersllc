@@ -1,12 +1,18 @@
 import './waterfowl.css'
 import Footer from '../Footer/footer'
 import dax from '../../assets/images/dax.jpeg'
+import waterfowlheader from '../../assets/images/waterfowlheader.jpg'
+import waterfowlbody1 from '../../assets/images/waterfowlbody1.jpg'
+import waterfowlbody2 from '../../assets/images/waterfowlbody2.jpg'
+import waterfowlbody3 from '../../assets/images/waterfowlbody3.jpg'
+import waterfowlbody4 from '../../assets/images/waterfowlbody4.jpg'
 
 
 function Waterfowl() {
     return (
       <div>
             <div className="waterfowlheaderCard">
+            <img className="waterfowlheaderlogo"src={waterfowlheader} alt="Waterfowl Logo"></img>
               <p className="waterfowltitle">Waterfowl</p>
             </div>
             <div className="waterfowltextbox">
@@ -18,60 +24,72 @@ function Waterfowl() {
                     Year after year, hunt after hunt! We can’t wait to make memories with ya’ll!
                 </p>
             </div>
-            <div className="waterfowlwhatsincluded">
-                    <p className="waterfowlwhatsincludedtitle"> What's Included</p>
+           <div className="waterfowlwhatsincludedbox">
+                <div className="waterfowlwhatsincluded">
+                        <p className="waterfowlwhatsincludedtitle"> What's Included</p>
+                            <ul>
+                                <li className="waterfowlwhatsincludedlist">$200/day/person with lodgin included</li>
+                                <li className="waterfowlwhatsincludedlist">Cleaning and bagging of game included (one wing or head kept attached for legal transport) </li>
+                                <li className="waterfowlwhatsincludedlist"> 
+                                    Completely guided: decoys, blinds and calling included and provided
+                                </li>
+                            </ul> 
+                </div>
+                <img className="waterfowlbody1"src={waterfowlbody1} alt="Waterfowl body 1 Logo"></img>
+              </div>
+            <div className="waterfowlhowwehuntbox">
+              <img className="waterfowlbody2"src={waterfowlbody2} alt="Waterfowl body 2 Logo"></img>
+                <div className="waterfowlhowwehunt">
+                        <p className="waterfowlhowwehunttitle">How We Hunt</p>
                         <ul>
-                            <li className="waterfowlwhatsincludedlist">$200/day/person with lodgin included</li>
-                            <li className="waterfowlwhatsincludedlist">Cleaning and bagging of game included (one wing or head kept attached for legal transport) </li>
-                            <li className="waterfowlwhatsincludedlist"> 
-                                Completely guided: decoys, blinds and calling included and provided
+                            <li className="waterfowlhowwehuntlist">
+                                Hunting ducks and geese over large field spreads of full bodies, socks, silhouettes and shell decoys
                             </li>
-                        </ul>     
+                            <li className="waterfowlhowwehuntlist">
+                                Hunting ducks and geese over combo full body and floater spreads on cattle ponds and large watershed ponds
+                            </li>
+                            <li className="waterfowlhowwehuntlist">
+                                We run A-frame or layout blinds depending on conditions and/or client preference
+                            </li>
+                        </ul>
+                </div>
             </div>
-            <div className="waterfowlhowwehunt">
-                    <p className="waterfowlhowwehunttitle">How We Hunt</p>
-                    <ul>
-                        <li className="waterfowlhowwehuntlist">
-                             Hunting ducks and geese over large field spreads of full bodies, socks, silhouettes and shell decoys
-                        </li>
-                        <li className="waterfowlhowwehuntlist">
-                             Hunting ducks and geese over combo full body and floater spreads on cattle ponds and large watershed ponds
-                        </li>
-                        <li className="waterfowlhowwehuntlist">
-                            We run A-frame or layout blinds depending on conditions and/or client preference
-                        </li>
-                    </ul>
-            </div>
-            <div className="waterfowlwherewehunt">
-                    <p className="waterfowlwherewehunttitle">Where We Hunt</p>
-                    <ul>
-                        <li className="waterfowlwherewehuntlist">
-                            We hunt on 30,000 acres
-                        </li>
-                        <li className="waterfowlwherewehuntlist">
-                            Our hunt area is based out of Lyndon, KS, within 10 miles of Melvern Lake, Pomona Lake and the Flint Hills National Wildlife Refuge
-                        </li>
-                        <li className="waterfowlwherewehuntlist">
-                            This area holds huge numbers of ducks (mallards, pintails and wigeons), and geese (Canadas, speckle belly and snows)
-                        </li>
-                    </ul>
-            </div>
-            <div className="waterfowlavailability">
-                    <p className="waterfowlavailabilitytitle">Availabitlity For 2023</p>
-                    <ul>
-                        <li className="waterfowlavailabilitylist">
-                             Open dates on WEEKENDS ONLY (some exceptions – just reach out and we’ll do our best to accommodate your schedule)
-                        </li>
-                        <li className="waterfowlavailabilitylist">
-                            All weekends in November are already booked
-                        </li>
-                        <li className="waterfowlavailabilitylist">
-                            Open dates for WEEKENDS in December, January and February
-                        </li>
-                        <li className="waterfowlavailabilitylist">
-                            Some spring snow goose dates are available, but booking up fast (inquire for availability)
-                        </li>
-                    </ul>
+            <div className="waterfowlwherewehuntbox">
+                    <div className="waterfowlwherewehunt">
+                            <p className="waterfowlwherewehunttitle">Where We Hunt</p>
+                            <ul>
+                                <li className="waterfowlwherewehuntlist">
+                                    We hunt on 30,000 acres
+                                </li>
+                                <li className="waterfowlwherewehuntlist">
+                                    Our hunt area is based out of Lyndon, KS, within 10 miles of Melvern Lake, Pomona Lake and the Flint Hills National Wildlife Refuge
+                                </li>
+                                <li className="waterfowlwherewehuntlist">
+                                    This area holds huge numbers of ducks (mallards, pintails and wigeons), and geese (Canadas, speckle belly and snows)
+                                </li>
+                            </ul>
+                    </div>
+                    <img className="waterfowlbody3"src={waterfowlbody3} alt="Waterfowl body 3 Logo"></img>
+              </div>
+            <div className="waterfowlavailabilitybox">
+                <img className="waterfowlbody4"src={waterfowlbody4} alt="Waterfowl body 4 Logo"></img>
+                  <div className="waterfowlavailability">
+                          <p className="waterfowlavailabilitytitle">Availabitlity For 2023</p>
+                          <ul>
+                              <li className="waterfowlavailabilitylist">
+                                  Open dates on WEEKENDS ONLY (some exceptions – just reach out and we’ll do our best to accommodate your schedule)
+                              </li>
+                              <li className="waterfowlavailabilitylist">
+                                  All weekends in November are already booked
+                              </li>
+                              <li className="waterfowlavailabilitylist">
+                                  Open dates for WEEKENDS in December, January and February
+                              </li>
+                              <li className="waterfowlavailabilitylist">
+                                  Some spring snow goose dates are available, but booking up fast (inquire for availability)
+                              </li>
+                          </ul>
+                      </div>
                 </div>
                 <div className="waterfowlguide">
                     <div>

@@ -1,16 +1,23 @@
 .turkeyheaderCard {
-    background-color: #253439;
-   
     display: grid; 
     border-radius: 25px;
     width: 100%;
     height: 350px; 
     text-align: center;
 }
+.turkeyheaderlogo{
+    width: 100%;
+    height:350px;
+    border-radius: 25px;
+    position:relative;
+}
 .turkeytitle {
-    padding-top: 6rem;
-    font-size: 40px;
+    padding-top: 12rem;
+    font-size: 60px;
     color:whitesmoke;
+    font-weight: bolder;
+    position: absolute;
+    left:40%;
 }
 
 /* white tail textbox  */

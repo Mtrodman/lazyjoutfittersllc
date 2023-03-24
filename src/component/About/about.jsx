@@ -1,13 +1,15 @@
 
 import './about.css'
-import lazyjlogo from '../../assets/images/lazyjlogo.jpg'
+import gene from '../../assets/images/gene.jpeg'
+import emilee from '../../assets/images/emilee.jpeg'
+import lazymap from '../../assets/images/lazymap.PNG'
 
 
 function About() {
     return (
         <div className="headerCard">
-            <div className='Abouttext'>
-                <p>
+            <div className='aboutbox'>
+                <p className="abouttext">
                 Gene and Emilee at Lazy J Outfitters are all about successful hunting, healthy and abundant 
                 wildlife, hearty meals, good times and conversations with plenty of laughs at the end of the
                  day, treating everyone like they are family and hoping to make life long friends. They 
@@ -19,7 +21,14 @@ function About() {
                 land; crop ground, hay meadows, pasture land, creek timber, and a 5 acre private fishing lake right next
                  to the cabin. Guaranteed some of the best people and land you’ll every hunt on or with.
                 </p>
+                < img className="gene"src={gene} alt="Gene"></img>
             </div>
+            <div className="lazymapbox">
+                < img className="lazymap"src={lazymap} alt="Lazy J Outfitters Map"></img>
+                < img className="emilee"src={emilee} alt="emilee"></img>
+
+            </div>
+
             <div>
              
             </div>

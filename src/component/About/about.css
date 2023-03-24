@@ -1,0 +1,40 @@
+.gene {
+    width:425px;
+    height:300px;
+    border-radius: 25px;
+    padding-top:15px;
+}
+.aboutbox{
+    display:flex;
+}
+.abouttext{
+    display: flex1;
+    padding-top:20px;
+    background-color: #253439;
+    color:whitesmoke;
+    border-radius: 25px;
+    width:600px;
+    height:275px;
+    margin-left:50px;
+    margin-right:5%;
+}
+
+.aboutmapbox {
+    display: flex;
+    margin-top: 20px;
+}
+
+.lazymap {
+    display:flex1;
+    width:425px;
+    height: 300px;
+    margin-right: 10%;
+    border-radius: 25px;
+   
+}
+
+.emilee{
+    width:425px;
+    height:300px;
+    border-radius: 25px;
+}

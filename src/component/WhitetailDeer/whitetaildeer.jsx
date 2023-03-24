@@ -1,10 +1,12 @@
 import './whitetaildeer.css'
 import Footer from '../Footer/footer'
+import deerheader from '../../assets/images/deerheader.jpg'
 
 function WhiteTailDeer() {
     return (
         <div>
                 <div className="whitetailheaderCard">
+                <img className="deerheaderlogo"src={deerheader} alt="Deer Logo"></img>
                     <p className="whitetailtitle">White Tail Deer</p>
                 </div >
                 <div className="whitetailtextbox">
@@ -86,9 +88,7 @@ function WhiteTailDeer() {
                         </li>
                     </ul>
                 </div>
-            <div>
-           
-           
+            <div>   
         </div>
         <footer>
             <Footer/>

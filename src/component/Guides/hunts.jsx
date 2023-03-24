@@ -1,6 +1,7 @@
 import './hunts.css'
 import deer from '../../assets/images/deer.jpg'
 import turkey from '../../assets/images/turkey.jpg'
+import waterfowlguide from '../../assets/images/waterfowlguide.jpg'
 
 
 
@@ -28,7 +29,7 @@ function GuidedHunts() {
                             {/* <button className="turkeyButton">TURKEY HUNTS</button> */}
             </div>
             <div className="guidedWaterfowl">
-                < img src="" alt="Waterfowl Hunts Image"></img>
+            < img className="waterfowl"src={waterfowlguide} alt="Waterfowl Hunt Image"></img>
                      <h3>Waterfowl Hunts</h3>
                         <ul  className="guidedlistbox">
                             <li  className="guideinfo">$200 per day.</li>

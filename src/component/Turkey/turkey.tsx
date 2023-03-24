@@ -1,12 +1,14 @@
 import './turkey.css'
 import lazyjlogo from '../../assets/images/lazyjlogo.jpg'
 import Footer from '../Footer/footer'
+import turkeyheader from '../../assets/images/turkeyheader.jpeg'
 
 
 function Turkey() {
     return (
             <div>
                 <div className="turkeyheaderCard">
+                <img className="turkeyheaderlogo"src={turkeyheader} alt="Turkey Logo"></img>
                     <p className="turkeytitle">Turkey</p>
                 </div >
                 <div className="turkeytextbox">

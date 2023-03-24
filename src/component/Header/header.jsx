@@ -1,9 +1,12 @@
 import './header.css'
 import lazyjlogo from '../../assets/images/lazyjlogo.jpg'
+import mainheader from '../../assets/images/mainheader.jpg'
 
 function Header() {
     return (
-        <div className="headerCard">
+        <div>
+            <div className="headerCard">
+                <img className="mainheaderlogo"src={mainheader} alt="Main Logo"></img>
             <div className="guidedHunts">
                 <h2 className="guidetitle">Guided Trophy Hunts</h2>
                     <p className="guidetext">
@@ -18,7 +21,12 @@ function Header() {
             <div className="lazyJlogo">
                 <img className="mainLogo"src={lazyjlogo} alt="Lazy J Outfitters Logo"></img>
             </div>
+            
+            </div>
+            
+              
         </div>
+        
     )
 }
 

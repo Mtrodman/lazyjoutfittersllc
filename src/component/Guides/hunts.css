@@ -26,6 +26,7 @@
     width: 200px;
     height: 150px;
     padding-top: 15px;
+    border-radius: 25px;
 }
 .deerButton {
     margin-top: 5px;
@@ -51,6 +52,7 @@
     width: 200px;
     height: 150px;
     padding-top: 15px;
+    border-radius: 25px;
 }
 .turkeyButton {
     margin-top: 5px;
@@ -59,6 +61,12 @@
     background-color: #253439;
     color: white;
     border-radius: 15px;
+}
+.waterfowl {
+    width: 200px;
+    height: 150px;
+    padding-top: 15px;
+    border-radius: 25px;
 }
 .guidedWaterfowl {
     float: left;
