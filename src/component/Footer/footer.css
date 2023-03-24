@@ -1,11 +1,10 @@
 .footerCard {
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+   
+    width: 100%;
     border-radius: 25px;
     height: 150px;
-    background-color:#9a7b39 ;
+    background-color: #253439 ;
     padding-top: 20px;
     padding-left:15px;
     padding-right: 15px;
@@ -15,7 +14,7 @@
 
 .footerheaders {
     text-decoration: underline;
-    color: #253439;
+    color: whitesmoke;
     text-align: center;
 }
 .ourAddress {
@@ -23,6 +22,7 @@
     margin-top: 1rem;
     width: 25%;
     height: 150px;
+    color:whitesmoke;
    
 }
 
@@ -33,6 +33,7 @@
     width: 45%;
     height: 150px;
     margin-left: 20px;
+    color:whitesmoke;
 }
 
 .footertext {
@@ -44,6 +45,7 @@
     width: 25%;
     height: 150px;
     margin-left: 20px;
+    color:whitesmoke;
 
 }
 
@@ -56,7 +58,7 @@
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
+        width: 100%;
         border-radius: 25px;
         height: 600px;
         background-color:#9a7b39 ;
@@ -73,6 +75,6 @@
    /* =======================Media Queries (Small Devices)=================== */
    @media screen and  (max-width: 600px) {
      body {
-         width: 90%;
+         width: 100%;
      }
     }

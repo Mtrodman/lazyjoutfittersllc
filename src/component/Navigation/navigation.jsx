@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link} from 'react-router-dom'
+import { Link, Route} from 'react-router-dom'
 import  './navigation.css'
 import lazyjlogo from '../../assets/images/lazyjlogo.jpg'
 
@@ -44,6 +44,11 @@ function Navigation() {
             <li className='buttonlink'>
               <Link className=' nav n1' to='/Waterfowl'>
                Waterfowl
+              </Link>
+            </li>
+            <li className='buttonlink'>
+              <Link className=' nav n1' to='/login'>
+               Login
               </Link>
             </li>
             

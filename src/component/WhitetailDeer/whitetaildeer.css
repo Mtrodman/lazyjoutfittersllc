@@ -1,11 +1,9 @@
 .whitetailheaderCard {
     background-color: #253439;
-   
     display: grid; 
     border-radius: 25px;
-    width: 90%;
+    width: 100%;
     height: 350px; 
-    margin-left: 3rem;
     text-align: center;
 }
 .whitetailtitle {
@@ -22,12 +20,15 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
+
 }
 .whitetailtextbox1{
     font-size: 30px;
+    color:#9a7b39;
 }
 .whitetailtextbox2 {
     font-size: 20px;
+  
 }
 
 /* Whats Included */
@@ -95,9 +96,7 @@
 .availabilitylist {
     font-size: 15px;
 }
-footer {
-    margin-left: 50px;
-}
+
 /* =======================Media Queries (Medium Devices)=================== */
 @media screen and  (max-width: 1024px) {
     body {

@@ -1,0 +1,150 @@
+.waterfowlheaderCard {
+    background-color: #253439;
+    display: grid; 
+    border-radius: 25px;
+    width: 100%;
+    height: 350px; 
+    text-align: center;
+}
+.waterfowltitle {
+    padding-top: 6rem;
+    font-size: 40px;
+    color:whitesmoke;
+}
+
+/* white tail textbox  */
+
+.waterfowltextbox {
+    text-align: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+
+}
+.waterfowltextbox1{
+    font-size: 30px;
+    color:#9a7b39;
+}
+.waterfowltextbox2 {
+    font-size: 20px;
+  
+}
+.waterfowlhowwehunt{
+    padding-top: 20px;
+    background-color:  #253439;
+    color:whitesmoke;
+    border-radius: 25px;
+    width:50%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.waterfowlhowwehunttitle{
+    text-decoration: underline;
+    text-align: center; 
+    font-size: 25px;
+    color:whitesmoke;  
+}
+.waterfowlhowwehuntlist {
+    font-size: 15px;
+}
+
+/* Whats Included */
+.waterfowlwhatsincluded{
+    padding-top: 20px;
+    background-color:  #253439;
+    color:whitesmoke;
+    border-radius: 25px;
+    width:50%;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.waterfowlwhatsincludedtitle{
+    text-decoration: underline;
+    text-align: center; 
+    font-size: 25px;
+    color:whitesmoke;  
+}
+.waterfowlwhatsincludedlist {
+    font-size: 15px;
+}
+
+/* How We Hunt  */
+.waterfowlwherewehunt {
+    padding-top: 20px;
+    background-color:  #253439;
+    color:whitesmoke;
+    border-radius: 25px;
+    width:50%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+   
+  
+}
+.waterfowlwherewehunttitle {
+    text-decoration: underline;
+    text-align: center; 
+    font-size: 25px;
+    color:whitesmoke;
+}
+.waterfowlwherewehuntlist {
+    font-size: 15px;
+}
+
+/* Availability */
+.waterfowlavailability {
+    padding-top: 20px;
+    background-color:  #253439;
+    color:whitesmoke;
+    border-radius: 25px;
+    width:50%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 50px;
+  
+}
+.waterfowlavailabilitytitle {
+    text-decoration: underline;
+    text-align: center; 
+    font-size: 25px;
+    color:whitesmoke;
+}
+
+.waterfowlavailabilitylist {
+    font-size: 15px;
+}
+.waterfowlguide {
+   display: flex;
+   background-color: #253439 ;
+   margin-top: 20px;
+   width:91%;
+   border-radius: 25px;
+   margin-left:52px;
+}
+.waterfowlguideinfo{
+    width:600px;
+    height:400px;
+    color:whitesmoke;
+}
+.waterfowlguidename {
+    color:whitesmoke; 
+}
+.waterfowlguidetitle{
+    color:whitesmoke;
+}
+.guideinfobox{
+    padding-left:15%;
+
+}
+.dax {
+    width:400px;
+    height:400px;
+    padding-left:20%;
+    padding-top:20%;
+}
+

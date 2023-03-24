@@ -14,23 +14,25 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   userlogin.init({
-    user_id: {
-      type: DataTypes.INTEGER,
-      primaryKey: true,
-      allowNull: false,
-    },
-   user_name: {
-      type: DataTypes.STRING,
-      allowNull: false
-    },
-    user_password: {
-      type: DataTypes.STRING,
-      allowNull: false
-    },
+    // user_id: {
+    //   type: DataTypes.INTEGER,
+    //   primaryKey: true,
+   
+    // },
+  //  user_name: {
+  //     type: DataTypes.STRING,
+  //     allowNull: true,
+  //   },
+  //   user_password: {
+  //     type: DataTypes.STRING,
+  //     allowNull: false,
+  //   },
+  user_name: DataTypes.STRING,
+  user_password: DataTypes.STRING,
   }, {
     sequelize,
     modelName: 'userlogin',
-    tableName: 'userlogin',
+    tableName: 'userlogins',
     timestamps: true
   });
   return userlogin;

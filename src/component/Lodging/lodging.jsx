@@ -30,7 +30,7 @@ function Lodging() {
                         <li className="featureinfo">Chilled and enclosed butcher room for processing meat</li>
                     </ul>
             </div> 
-            <div>
+            <div className="footer">
                 <Footer/>
             </div>
       </div>

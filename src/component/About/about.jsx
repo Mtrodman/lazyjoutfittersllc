@@ -2,6 +2,7 @@
 import './about.css'
 import lazyjlogo from '../../assets/images/lazyjlogo.jpg'
 
+
 function About() {
     return (
         <div className="headerCard">
@@ -19,7 +20,9 @@ function About() {
                  to the cabin. Guaranteed some of the best people and land you’ll every hunt on or with.
                 </p>
             </div>
-            
+            <div>
+             
+            </div>
         </div>
     )
 }

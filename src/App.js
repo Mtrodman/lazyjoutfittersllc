@@ -9,6 +9,7 @@ import Home from './component/Home/home'
 import WhiteTailDeer from './component/WhitetailDeer/whitetaildeer'
 import Turkey from './component/Turkey/turkey'
 import Waterfowl from './component/Waterfowl/waterfowl'
+import Login from './component/Login/login'
 import './App.css';
 
 
@@ -27,6 +28,7 @@ function App() {
             <Route path='/WhiteTailDeer' element={<WhiteTailDeer />} />
             <Route path='/Turkey' element={<Turkey />} />
             <Route path='/Waterfowl' element={<Waterfowl />} />
+            <Route path='/Login' element={<Login />} />
            
 
           </Routes>
