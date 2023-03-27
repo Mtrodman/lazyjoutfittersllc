@@ -47,12 +47,16 @@ function Navigation() {
               </Link>
             </li>
             <li className='buttonlink'>
-              <Link className=' nav n1' to='/login'>
+              <Link className=' nav n1' to='/LoginForm'>
                Login
               </Link>
             </li>
-            
-           
+            <li className='buttonlink'>
+              <Link className=' nav n1' to='/SignUpForm'>
+               Register
+              </Link>
+            </li>            
+                          
            
       </ul>
      

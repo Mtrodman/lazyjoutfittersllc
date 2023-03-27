@@ -9,7 +9,10 @@ import Home from './component/Home/home'
 import WhiteTailDeer from './component/WhitetailDeer/whitetaildeer'
 import Turkey from './component/Turkey/turkey'
 import Waterfowl from './component/Waterfowl/waterfowl'
-import Login from './component/Login/login'
+import SignUpForm from './component/users/SignUpForm'
+import LoginForm from './component/users/LoginForm'
+
+
 import './App.css';
 
 
@@ -28,7 +31,9 @@ function App() {
             <Route path='/WhiteTailDeer' element={<WhiteTailDeer />} />
             <Route path='/Turkey' element={<Turkey />} />
             <Route path='/Waterfowl' element={<Waterfowl />} />
-            <Route path='/Login' element={<Login />} />
+            <Route path='/SignUpForm' element={<SignUpForm />} />
+            <Route path='/LoginForm' element={<LoginForm />} />
+           
            
 
           </Routes>

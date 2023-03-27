@@ -42,7 +42,11 @@
 }
 
 /* Whats Included */
+.whatsincludedbox{
+    display:flex;
+}
 .whatsincluded{
+    display:flex1;
     padding-top: 20px;
     background-color:  #253439;
     color:whitesmoke;
@@ -51,6 +55,13 @@
     height: 450px;
     margin-left: 50px;
     margin-top: 20px;
+}
+.deerbody1{
+    width:425px;
+    height: 450px;
+    margin-left:5%;
+    margin-top:2%;
+    border-radius:25px;
 }
 .whatsincludedtitle{
     text-decoration: underline;
@@ -63,7 +74,11 @@
 }
 
 /* How We Hunt  */
+.wherewehuntbox{
+    display: flex;
+}
 .wherewehunt {
+    display:flex1;
     padding-top: 20px;
     background-color:  #253439;
     color:whitesmoke;
@@ -74,6 +89,13 @@
     margin-left: auto;
     margin-right: 50px;
   
+}
+.deerbody2{
+    width: 400px;
+    height: 250px;
+    margin-left:10%;
+    margin-top:1%;
+    border-radius:25px;
 }
 .wherewehunttitle {
     text-decoration: underline;
@@ -86,7 +108,11 @@
 }
 
 /* Availability */
+.availabilitybox{
+    display:flex;
+}
 .availability {
+    display: flex1;
     padding-top: 20px;
     background-color:  #253439;
     color:whitesmoke;
@@ -95,7 +121,16 @@
     height: 200px;
     margin-top: 20px;
     margin-left: 50px;
+   
   
+}
+.deerbody3{
+    width:400px;
+    height:200px;
+    margin-left: 5%;
+    margin-top:2%;
+    border-radius: 25px;
+    
 }
 .availabilitytitle {
     text-decoration: underline;

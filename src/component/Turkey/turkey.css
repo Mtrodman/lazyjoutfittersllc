@@ -35,7 +35,11 @@
 .turkeytextbox2 {
     font-size: 20px;
 }
+.turkeyhowwehuntbox {
+    display:flex;
+}
 .turkeyhowwehunt{
+    display:flex1;
     padding-top: 20px;
     background-color:  #253439;
     color:whitesmoke;
@@ -45,6 +49,13 @@
     margin-left: auto;
     margin-right: 50px;
     margin-top: 20px;
+}
+.turkeybody2{
+    width:400px;
+    height:300px;
+    margin-left: 10%;
+    margin-top:2%;
+    border-radius:25px;
 }
 .turkeyhowwehunttitle{
     text-decoration: underline;
@@ -57,7 +68,11 @@
 }
 
 /* Whats Included */
+.turkeywhatsincludedbox{
+    display:flex;
+}
 .turkeywhatsincluded{
+    display: flex1;
     padding-top: 20px;
     background-color:  #253439;
     color:whitesmoke;
@@ -66,6 +81,13 @@
     height: 350px;
     margin-left: 50px;
     margin-top: 20px;
+}
+.turkeybody1{
+    width:400px;
+    height:350px;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 25px;
 }
 .turkeywhatsincludedtitle{
     text-decoration: underline;
@@ -78,7 +100,11 @@
 }
 
 /* How We Hunt  */
+.turkeywherewehuntbox{
+    display:flex;
+}
 .turkeywherewehunt {
+    display:flex1;
     padding-top: 20px;
     background-color:  #253439;
     color:whitesmoke;
@@ -87,8 +113,13 @@
     height: 200px;
     margin-top: 20px;
     margin-left: 50px;
-   
-  
+}
+.turkeybody3{
+    width:400px;
+    height:200px;
+    margin-left: 5%;
+    margin-top:2%;
+    border-radius: 25px;
 }
 .turkeywherewehunttitle {
     text-decoration: underline;
@@ -101,17 +132,29 @@
 }
 
 /* Availability */
+.turkeyavailabilitybox{
+    display:flex;
+}
 .turkeyavailability {
+    display:flex1;
     padding-top: 20px;
     background-color:  #253439;
     color:whitesmoke;
     border-radius: 25px;
     width:50%;
     height: 200px;
-    margin-top: 20px;
+    margin-top:20px;
     margin-left: auto;
     margin-right: 50px;
   
+}
+.turkeybody4{
+    width:400px;
+    height:200px;
+    margin-left: 8%;
+    margin-top: 2%;
+    border-radius: 25px;
+    
 }
 .turkeyavailabilitytitle {
     text-decoration: underline;
