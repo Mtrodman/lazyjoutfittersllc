@@ -42,8 +42,8 @@ function LoginForm() {
     }
 
     return (
-        <main>
-            <h1>Login</h1>
+        <main className='formbody'>
+            <h1 className='formtitle'>Login</h1>
             {errorMessage !== null
                 ? (
                     <div className="alert alert-danger" role="alert">
@@ -54,7 +54,7 @@ function LoginForm() {
             }
             <form onSubmit={handleSubmit}>
                 <div className="row">
-                    <div className="col-sm-6 form-group">
+                    <div className="formtext">
                         <label htmlFor="email">Email</label>
                         <input
                             type="email"
@@ -66,7 +66,7 @@ function LoginForm() {
                             name="email"
                         />
                     </div>
-                    <div className="col-sm-6 form-group">
+                    <div className="formtext">
                         <label htmlFor="password">Password</label>
                         <input
                             type="password"

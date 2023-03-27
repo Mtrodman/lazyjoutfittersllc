@@ -3,7 +3,7 @@ const db = require("../models")
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 
-const { User } = db
+const { Users } = db
 
 router.post('/', async (req, res) => {
     let user = await User.findOne({

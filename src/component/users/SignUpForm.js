@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './form.css'
 
 function SignUpForm() {
   const [user, setUser] = useState({
@@ -11,7 +12,7 @@ function SignUpForm() {
   async function handleSubmit(event) {
     event.preventDefault();
     try {
-      const response = await fetch("http://localhost:5000/SignUpForm/", {
+      const response = await fetch("http://localhost:5000/users/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -31,11 +32,11 @@ function SignUpForm() {
   }
 
   return (
-    <main>
-      <h1>Sign Up</h1>
+    <main className="formbody">
+      <h1 className="formtitle">Sign Up</h1>
       <form onSubmit={handleSubmit}>
         <div className="row">
-          <div className="col-sm-6 form-group">
+          <div className="formtext">
             <label htmlFor="firstName">First Name</label>
             <input
               required
@@ -48,7 +49,7 @@ function SignUpForm() {
               name="firstName"
             />
           </div>
-          <div className="col-sm-6 form-group">
+          <div className="formtext">
             <label htmlFor="lastName">Last Name</label>
             <input
               required
@@ -61,9 +62,11 @@ function SignUpForm() {
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-6 form-group">
+          <div className="emailformtext">
             <label htmlFor="email">Email</label>
+            <br/>
             <input
+                
               type="email"
               required
               value={user.email}
@@ -73,9 +76,11 @@ function SignUpForm() {
               name="email"
             />
           </div>
-          <div className="col-sm-6 form-group">
+          <div className="formtext">
             <label htmlFor="password">Password</label>
+            <br/>
             <input
+            
               type="password"
               required
               value={user.password}

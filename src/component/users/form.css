@@ -1,0 +1,20 @@
+.formbody {
+    background-color: #253439;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+.formtitle{
+    color:white;
+    text-align: center;
+}
+.formtext {
+    color:white;
+    margin-left:50px;
+   
+}
+.emailformtext {
+    color:white;
+    margin-left:50px;
+}

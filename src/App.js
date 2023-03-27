@@ -13,6 +13,7 @@ import SignUpForm from './component/users/SignUpForm'
 import LoginForm from './component/users/LoginForm'
 
 
+
 import './App.css';
 
 
@@ -32,7 +33,8 @@ function App() {
             <Route path='/Turkey' element={<Turkey />} />
             <Route path='/Waterfowl' element={<Waterfowl />} />
             <Route path='/SignUpForm' element={<SignUpForm />} />
-            <Route path='/LoginForm' element={<LoginForm />} />
+            <Route path='/LoginForm' element={<LoginForm />} /> 
+           
            
            
 
