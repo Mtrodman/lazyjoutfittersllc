@@ -1,7 +1,6 @@
 import Welcome from '../Welcome/welcome'
 import Header from '../Header/header'
 import Guides from '../Guides/hunts'
-import Gallery from '../Gallery/gallery'
 import Footer from '../Footer/footer'
 import '../../App.css';
 
@@ -16,7 +15,7 @@ function Home() {
         
           <Welcome/>
           <Guides/>
-          <Gallery/>
+         
       </body>
       <footer className="App-footer">
         <Footer/>

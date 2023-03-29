@@ -46,16 +46,17 @@ function Navigation() {
                Waterfowl
               </Link>
             </li>
-            <li className='buttonlink'>
-              <Link className=' nav n1' to='/LoginForms'>
-               Login
-              </Link>
-            </li>
+            
              <li className='buttonlink'>
               <Link className=' nav n1' to='/SignUpForm'>
                Register
               </Link>
-            </li>             
+            </li>        
+            <li className='buttonlink'>
+              <Link className=' nav n1' to='/LoginForm'>
+               Login
+              </Link>
+            </li>        
                           
            
       </ul>

@@ -20,15 +20,11 @@
 }
 .nav {
     display: flex;
-    
-    background-color: #99917f;
+    background-color: #253439;
     text-decoration: none;
-    border-radius: 15px 15px 0px 0px;
-   
-    margin: 0px 2px 0px 2px;
-    box-shadow: 4px 0px black;
-    
-   
+    border-radius: 25px 25px 0px 0px;
+    margin: 0px 6px 0px 6px;
+    box-shadow: 5px 0px  #9a7b39;
 }
 
 .buttonlink {
@@ -38,21 +34,17 @@
 .n1 {
     
     padding: 15px 20px 15px 20px;
-    font-weight: bold;
-    color: #2e0307a2;
+    font-weight: bolder;
+    color: #9a7b39;
     float: right;
     
 }
-
-
-
-
 /* nav bar effects */
 .nav:focus {
-    background-color: #bab3a3;
-}
+    background-color:transparent;
 
+}
 .nav:hover {
-    background-color: #bab3a3;
+    background-color: lightgrey;
     text-decoration: underline;
 }

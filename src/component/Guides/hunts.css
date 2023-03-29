@@ -8,6 +8,8 @@
     padding-top: 20px;
     padding-left:15px;
     padding-right: 15px;
+    box-shadow: 6px 0px #9a7b39;
+    
 }
 
 .guidedWhiteTail {
@@ -16,8 +18,9 @@
     width: 300px;
     height: 380px;
     background-color: whitesmoke;
-    border: solid black;
+    
     border-radius: 25px;
+    box-shadow: 6px 0px #9a7b39;
 }
 .guidedlistbox {
     margin-right:35px;
@@ -43,9 +46,10 @@
     width: 300px;
     height: 380px;
     background-color: whitesmoke;
-    border: solid black;
+    
     border-radius: 25px;
     margin-left: 20px;
+    box-shadow: 6px 0px #9a7b39;
     
 }
 .turkey {
@@ -67,15 +71,17 @@
     height: 150px;
     padding-top: 15px;
     border-radius: 25px;
+    
 }
 .guidedWaterfowl {
     float: left;
     width: 300px;
     height: 380px;
     background-color: whitesmoke;
-    border: solid black;
+   
     border-radius: 25px;
     margin-left: 20px;
+    box-shadow: 6px 0px #9a7b39;
 
 }
 

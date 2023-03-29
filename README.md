@@ -32,6 +32,12 @@ Express
 Node.js
 bcrypt
 
+Deployment 
+This website is deployed using www.vercel.com 
+
+LazyJoutfittersLLC.vercel.app
+
+
 Features that are looking to be added in the future
 A blog so people can leave reviews on how their stay and hunting eventures went. 
 Slide show feature to display more pictures of loding, whitetail, turkey and waterfowl hunts.

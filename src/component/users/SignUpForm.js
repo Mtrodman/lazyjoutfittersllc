@@ -1,5 +1,7 @@
 import { useState } from "react";
 import './form.css'
+import LoginForm from './LoginForm'
+
 
 function SignUpForm() {
   const [user, setUser] = useState({
@@ -12,7 +14,7 @@ function SignUpForm() {
   async function handleSubmit(event) {
     event.preventDefault();
     try {
-      const response = await fetch("http://localhost:5000/users/", {
+      const response = await fetch("http://localhost:5000/users", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -95,7 +97,10 @@ function SignUpForm() {
         </div>
         <input className="btn btn-primary" type="submit" value="Sign Up" />
       </form>
+      <br/>
     </main>
+  
+
   );
 }
 

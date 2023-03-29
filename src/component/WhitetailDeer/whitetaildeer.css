@@ -55,6 +55,7 @@
     height: 450px;
     margin-left: 50px;
     margin-top: 20px;
+    box-shadow: 6px 0px #9a7b39;
 }
 .deerbody1{
     width:425px;
@@ -88,6 +89,7 @@
     margin-top: 20px;
     margin-left: auto;
     margin-right: 50px;
+    box-shadow: 6px 0px #9a7b39;
   
 }
 .deerbody2{
@@ -121,6 +123,7 @@
     height: 200px;
     margin-top: 20px;
     margin-left: 50px;
+    box-shadow: 6px 0px #9a7b39;
    
   
 }

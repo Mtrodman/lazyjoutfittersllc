@@ -10,7 +10,7 @@ function WhiteTailDeer() {
         <div>
                 <div className="whitetailheaderCard">
                 <img className="deerheaderlogo"src={deerheader} alt="Deer Logo"></img>
-                    <p className="whitetailtitle">White Tail Deer</p>
+                    <p className="whitetailtitle">Whitetail Deer</p>
                 </div >
                 <div className="whitetailtextbox">
                     <p className="whitetailtextbox1">

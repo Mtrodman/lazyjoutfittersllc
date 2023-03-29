@@ -1,22 +1,21 @@
-const router = require('express').Router()
-const db = require("../models")
-const bcrypt = require('bcrypt')
+const router = require("express").Router();
+const db = require("../models");
+const bcrypt = require("bcrypt");
 
-const { Users } = db
+const { Users } = db;
 // passwordDigest is from the user model
-router.post('/', async (req, res) => {
-    let { password, ...rest } = req.body;
-    const users = await Users.create({
-        ...rest,
-        passwordDigest: await bcrypt.hash(password, 10)
-    })
-    res.json(users)
-})
+router.post("/", async (req, res) => {
+  let { password, ...rest } = req.body;
+  const users = await Users.create({
+    ...rest,
+    // passworddigest: await bcrypt.hash(password, 10)
+  });
+  res.json(users);
+});
 
-
-router.get('/', async (req, res) => {
-    const users = await Users.findAll()
-    res.json(users)
-})
-
-module.exports = router
+router.get("/", async (req, res) => {
+  const users = await Users.findAll();
+  res.json(users);
+});
+// comment ff
+module.exports = router;

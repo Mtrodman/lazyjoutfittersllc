@@ -1,88 +1,78 @@
-import { useContext, useState } from "react"
+import { useState } from "react";
+import './form.css'
 
-import { CurrentUser } from '../contexts/CurrentUser'
 
 function LoginForm() {
+  const [user, setUser] = useState({
+    email: "",
+    password: "",
+  });
 
-    // const history = useHistory()
-
-    const { setCurrentUser } = useContext(CurrentUser)
-
-    const [credentials, setCredentials] = useState({
-        email: '',
-        password: ''
-    })
-
-    const [errorMessage, setErrorMessage] = useState(null)
-
-    //Here we're using the appropriate HTTP method and path to invoke the
-    //route handler we just created, and we're sending the username and password
-    //the user entered, so that our back end can use it to lookup.
-    async function handleSubmit(e) {
-        e.preventDefault()
-        const response = await fetch(`http://localhost:5000/authentication`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(credentials)
-        })
-
-        const data = await response.json()
-
-        if (response.status === 200) {
-            setCurrentUser(data.user)
-            console.log(data.token)
-            localStorage.setItem('token', data.token)
-            // history.push('/')
-        } else {
-            setErrorMessage(data.message)
-        }
-
+  async function handleSubmit(event) {
+    event.preventDefault();
+    try {
+      const response = await fetch("http://localhost:5000/authentication", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(user),
+      });
+      if (response.ok) {
+        const data = await response.json();
+        console.log(data);
+        // redirect to login page
+      } else {
+        throw new Error("Something went wrong");
+      }
+    } catch (error) {
+      console.log(error);
     }
+  }
 
-    return (
-        <main className='formbody'>
-            <h1 className='formtitle'>Login</h1>
-            {errorMessage !== null
-                ? (
-                    <div className="alert alert-danger" role="alert">
-                        {errorMessage}
-                    </div>
-                )
-                : null
-            }
-            <form onSubmit={handleSubmit}>
-                <div className="row">
-                    <div className="formtext">
-                        <label htmlFor="email">Email</label>
-                        <input
-                            type="email"
-                            required
-                            value={credentials.email}
-                            onChange={e => setCredentials({ ...credentials, email: e.target.value })}
-                            className="form-control"
-                            id="email"
-                            name="email"
-                        />
-                    </div>
-                    <div className="formtext">
-                        <label htmlFor="password">Password</label>
-                        <input
-                            type="password"
-                            required
-                            value={credentials.password}
-                            onChange={e => setCredentials({ ...credentials, password: e.target.value })}
-                            className="form-control"
-                            id="password"
-                            name="password"
-                        />
-                    </div>
-                </div>
-                <input className="btn btn-primary" type="submit" value="Login" />
-            </form>
-        </main>
-    )
+  return (
+    <main className="formbody">
+      <h1 className="formtitle">Login</h1>
+      <form onSubmit={handleSubmit}>
+       
+        <div className="row">
+          <div className="emailformtext">
+            <label htmlFor="email">Email</label>
+            <br/>
+            <input
+                
+              type="email"
+              required
+              value={user.email}
+              onChange={(e) => setUser({ ...user, email: e.target.value })}
+              className="form-control"
+              id="email"
+              name="email"
+            />
+          </div>
+          <div className="formtext">
+            <label htmlFor="password">Password</label>
+            <br/>
+            <input
+            
+              type="password"
+              required
+              value={user.password}
+              onChange={(e) =>
+                setUser({ ...user, password: e.target.value })
+              }
+              className="form-control"
+              id="password"
+              name="password"
+            />
+          </div>
+        </div>
+        <input className="btn btn-primary" type="submit" value="Sign Up" />
+      </form>
+    </main>
+
+
+  );
 }
 
-export default LoginForm
+export default LoginForm;
