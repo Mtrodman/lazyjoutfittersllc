@@ -31,6 +31,7 @@ PostgresSQL
 Express
 Node.js
 bcrypt
+Json Web Token
 
 Deployment 
 This website is deployed using www.vercel.com 

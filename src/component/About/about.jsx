@@ -28,10 +28,6 @@ function About() {
                 < img className="emilee"src={emilee} alt="emilee"></img>
 
             </div>
-
-            <div>
-             
-            </div>
         </div>
     )
 }
